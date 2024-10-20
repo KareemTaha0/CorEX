@@ -1,3 +1,2 @@
-I am Karim 
-A Developer From Egypt 
-My main coding language is java , python and Lua
+Calclatour Projects made By CorEx ENT.
+coded in python!
