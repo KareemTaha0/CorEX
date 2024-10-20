@@ -1,8 +1,22 @@
-#CALC AREA OF RECTANGLE
+    operator = input("Enter An opreator (+ - * /):")
+    num1 = float(input("Type The First number which calculates Vari x equals?"))
+    y = float(input("Type The 2nd number which calculates Vari y equals?"))
 
-M  = float(input("Enter Your Balance"))
-addedseq = float(input("Enter the amount you want to deposit "))
-NewBalance = M + addedseq
 
-print(f"Deposit Successfull ! your current balance is {NewBalance}$")
+    if operator == "+":
+        print(num1 + y)
+    elif operator == "-":
+        print(num1 - y)
+
+    elif operator == "*":
+        print(num1 * y)
+
+    elif operator == "/":
+        sww = input("What Number would u start with?(num1 y):")
+        if sww == "num1":
+         print (num1 / y)
+
+
+        elif sww == "y" :
+            print(y / num1)
 
